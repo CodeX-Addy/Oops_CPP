@@ -7,9 +7,14 @@ class Object{
     string property;
     
     public:
+    void setSize(int size){
+        this->size = size;
+    }
+    public:
     int getsize(){
         return this->size;
     }
+    
 };
 
 int main(){
